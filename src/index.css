@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}.glass {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+}
+
+.skill-card {
+  transition: all 0.35s ease;
+  animation: floatSkill 4s ease-in-out infinite;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px) scale(1.08);
+  border-color: rgba(255,255,255,0.25);
+  box-shadow: 0 0 30px rgba(255,255,255,0.08);
+}
+
+@keyframes floatSkill {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: white;
+}
+
+img {
+  transition: all 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}.glass {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+}html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: white;
+  overflow-x: hidden;
+}
+
+.glass {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+}
+
+img {
+  transition: all 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}

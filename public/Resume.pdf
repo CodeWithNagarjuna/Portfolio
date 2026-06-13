@@ -1,0 +1,5 @@
+<a href="/resume.pdf" download>
+  <button className="btn border border-white px-8 py-4 rounded-full">
+    Download Resume
+  </button>
+</a>
