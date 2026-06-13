@@ -1,6 +1,7 @@
 import profile from "../assets/profile.png";
 
 export default function Hero() {
+}
   return (
     <section
       id="home"
